@@ -24,7 +24,7 @@ function Header() {
       {/* Left */}
       <div className="flex items-center">
         <Image
-          src=""
+          src="../public/images/facebook-logo.png"
           width="40"
           height="40"
           layout="fixed"
