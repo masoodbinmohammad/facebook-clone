@@ -14,10 +14,10 @@ import {
   SearchIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/outline";
-// import { signOut, useSession } from "next-auth/client";
+import { signOut, useSession } from "next-auth/client";
 
 function Header() {
-  // const [session] = useSession();
+  const [session] = useSession();
 
   return (
     <header className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
@@ -53,16 +53,16 @@ function Header() {
       {/* Right */}
       <div className="flex items-center sm:space-x-2 justify-end">
         <Image
-          // onClick={() => signOut()}
+          onClick={() => signOut()}
           className="rounded-full cursor-pointer"
-          // src={session.user.image}
+          src={session.user.image}
           width="40"
           height="40"
           layout="fixed"
           alt="signout"
         />
         <p className="hidden lg:inline-flex text-sm whitespace-nowrap font-semibold pr-3">
-          {/* {session.user.name} */}
+          {session.user.name}
         </p>
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />
