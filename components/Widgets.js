@@ -5,13 +5,13 @@ import Contact from "./Contact";
 
 function Widgets() {
   const contacts = [
-    { src: "../public/images/jeff-bezos.jpg", name: "Jeff Bezoz" },
-    { src: "../public/images/elon_musk.jpg", name: "Elon Musk" },
-    { src: "../public/images/bill_gates.jpeg", name: "Bill Gates" },
-    { src: "../public/images/mark_zuckerberg.jpg", name: "Mark Zuckerberg" },
-    { src: "../public/images/harry_potter.jpg", name: "Harry Potter" },
-    { src: "../public/images/queen.webp", name: "The Queen" },
-    { src: "../public/images/james_bond", name: "James Bond" },
+    { src: "/images/jeff-bezos.jpg", name: "Jeff Bezoz" },
+    { src: "/images/elon_musk.jpg", name: "Elon Musk" },
+    { src: "/images/bill_gates.jpeg", name: "Bill Gates" },
+    { src: "/images/mark_zuckerberg.jpg", name: "Mark Zuckerberg" },
+    { src: "/images/harry_potter.jpg", name: "Harry Potter" },
+    { src: "/images/queen.webp", name: "The Queen" },
+    { src: "/images/james_bond.jpg", name: "James Bond" },
   ];
 
   return (

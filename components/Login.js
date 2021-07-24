@@ -5,7 +5,7 @@ function Login() {
   return (
     <div className="grid place-items-center">
       <Image
-        src="../public/images/facebook-logo.png"
+        src="/images/facebook-logo.png"
         height={400}
         width={400}
         objectFit="contain"

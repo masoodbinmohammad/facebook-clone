@@ -4,28 +4,28 @@ import StoryCard from "./StoryCard";
 const stories = [
   {
     name: "Masood Mohammad",
-    src: "../public/images/me_hat.jpg",
-    profile: "me_hat",
+    src: "/images/me_hat.jpg",
+    profile: "/images/me_hat.jpg",
   },
   {
     name: "Elon Musk",
-    src: "../public/images/elon_musk.jpg",
-    profile: "../public/images/elon_musk.jpg",
+    src: "/images/elon_musk.jpg",
+    profile: "/images/elon_musk.jpg",
   },
   {
     name: "Jeff Bezoz",
-    src: "../public/images/jeff-bezos.jpg",
-    profile: "../public/images/jeff-bezos.jpg",
+    src: "/images/jeff-bezos.jpg",
+    profile: "/images/jeff-bezos.jpg",
   },
   {
     name: "Mark Zuckerberg",
-    src: "../public/images/mark_zuckerberg.jpg",
-    profile: "../public/images/mark_zuckerberg.jpg",
+    src: "/images/mark_zuckerberg.jpg",
+    profile: "/images/mark_zuckerberg.jpg",
   },
   {
     name: "Bill Gates",
-    src: "../public/images/bill_gates.jpeg",
-    profile: "../public/images/bill_gates.jpeg",
+    src: "/images/bill_gates.jpeg",
+    profile: "/images/bill_gates.jpeg",
   },
 ];
 
